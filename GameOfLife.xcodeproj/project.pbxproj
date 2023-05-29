@@ -14,6 +14,9 @@
 		66F1702529B3AB7E006F436A /* GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1702429B3AB7E006F436A /* GameOfLifeTests.swift */; };
 		66F1702F29B3AB7E006F436A /* GameOfLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1702E29B3AB7E006F436A /* GameOfLifeUITests.swift */; };
 		66F1703129B3AB7E006F436A /* GameOfLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1703029B3AB7E006F436A /* GameOfLifeUITestsLaunchTests.swift */; };
+		66F1703E29B3ABCD006F436A /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1703D29B3ABCD006F436A /* GridView.swift */; };
+		66F1704029B3ABE8006F436A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1703F29B3ABE8006F436A /* Model.swift */; };
+		66F1704229B3AF56006F436A /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1704129B3AF56006F436A /* GridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		66F1702A29B3AB7E006F436A /* GameOfLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F1702E29B3AB7E006F436A /* GameOfLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeUITests.swift; sourceTree = "<group>"; };
 		66F1703029B3AB7E006F436A /* GameOfLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66F1703D29B3ABCD006F436A /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		66F1703F29B3ABE8006F436A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		66F1704129B3AF56006F436A /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				66F1701329B3AB7B006F436A /* GameOfLifeApp.swift */,
 				66F1701529B3AB7B006F436A /* ContentView.swift */,
+				66F1703D29B3ABCD006F436A /* GridView.swift */,
+				66F1704129B3AF56006F436A /* GridCell.swift */,
+				66F1703F29B3ABE8006F436A /* Model.swift */,
 				66F1701729B3AB7D006F436A /* Assets.xcassets */,
 				66F1701929B3AB7D006F436A /* Preview Content */,
 			);
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F1701629B3AB7B006F436A /* ContentView.swift in Sources */,
+				66F1703E29B3ABCD006F436A /* GridView.swift in Sources */,
 				66F1701429B3AB7B006F436A /* GameOfLifeApp.swift in Sources */,
+				66F1704029B3ABE8006F436A /* Model.swift in Sources */,
+				66F1704229B3AF56006F436A /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
